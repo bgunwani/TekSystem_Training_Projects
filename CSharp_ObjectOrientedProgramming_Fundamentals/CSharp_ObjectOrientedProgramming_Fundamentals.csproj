@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BBC0B7AE-92EB-42A1-B36A-4719A1659DCB}</ProjectGuid>
+    <ProjectGuid>{E296384C-00FF-4053-90DD-5081EF10C33C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CSharp_Programming_Fundamentals</RootNamespace>
-    <AssemblyName>CSharp_Programming_Fundamentals</AssemblyName>
+    <RootNamespace>CSharp_ObjectOrientedProgramming_Fundamentals</RootNamespace>
+    <AssemblyName>CSharp_ObjectOrientedProgramming_Fundamentals</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConditonalStatementExample.cs" />
-    <Compile Include="InputOutputExample.cs" />
-    <Compile Include="LoopingConstructsExample.cs" />
+    <Compile Include="ClassesAndObjectsExample.cs" />
+    <Compile Include="ConstructorsExample.cs" />
+    <Compile Include="PropertiesExample.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TypeCastingExample.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

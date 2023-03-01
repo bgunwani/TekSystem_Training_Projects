@@ -5,6 +5,18 @@ VisualStudioVersion = 16.0.33328.57
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp_Programming_Fundamentals", "CSharp_Programming_Fundamentals\CSharp_Programming_Fundamentals.csproj", "{BBC0B7AE-92EB-42A1-B36A-4719A1659DCB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp_ObjectOrientedProgramming_Fundamentals", "CSharp_ObjectOrientedProgramming_Fundamentals\CSharp_ObjectOrientedProgramming_Fundamentals.csproj", "{E296384C-00FF-4053-90DD-5081EF10C33C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp_Inheritance_Polymorphism_Fundamentals", "CSharp_Inheritance_Polymorphism_Fundamentals\CSharp_Inheritance_Polymorphism_Fundamentals.csproj", "{7CC21F8D-1BA5-4D74-B0BD-7E01D89E62B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentLibrary", "StudentLibrary\StudentLibrary.csproj", "{0C61006F-C0FD-4951-A8DE-57870D7738AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarksLibrary", "MarksLibrary\MarksLibrary.csproj", "{42C2A15B-9922-4B64-B953-3E282B9BC6CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsLibrary", "SportsLibrary\SportsLibrary.csproj", "{EA138642-5A78-4494-83EE-0D7704A3C869}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResultLibrary", "ResultLibrary\ResultLibrary.csproj", "{FBFEDF0A-5E63-466A-A5A1-B5FF0DC24152}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +27,30 @@ Global
 		{BBC0B7AE-92EB-42A1-B36A-4719A1659DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBC0B7AE-92EB-42A1-B36A-4719A1659DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBC0B7AE-92EB-42A1-B36A-4719A1659DCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E296384C-00FF-4053-90DD-5081EF10C33C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E296384C-00FF-4053-90DD-5081EF10C33C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E296384C-00FF-4053-90DD-5081EF10C33C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E296384C-00FF-4053-90DD-5081EF10C33C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CC21F8D-1BA5-4D74-B0BD-7E01D89E62B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CC21F8D-1BA5-4D74-B0BD-7E01D89E62B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CC21F8D-1BA5-4D74-B0BD-7E01D89E62B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CC21F8D-1BA5-4D74-B0BD-7E01D89E62B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C61006F-C0FD-4951-A8DE-57870D7738AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C61006F-C0FD-4951-A8DE-57870D7738AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C61006F-C0FD-4951-A8DE-57870D7738AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C61006F-C0FD-4951-A8DE-57870D7738AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42C2A15B-9922-4B64-B953-3E282B9BC6CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42C2A15B-9922-4B64-B953-3E282B9BC6CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42C2A15B-9922-4B64-B953-3E282B9BC6CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42C2A15B-9922-4B64-B953-3E282B9BC6CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA138642-5A78-4494-83EE-0D7704A3C869}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA138642-5A78-4494-83EE-0D7704A3C869}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA138642-5A78-4494-83EE-0D7704A3C869}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA138642-5A78-4494-83EE-0D7704A3C869}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBFEDF0A-5E63-466A-A5A1-B5FF0DC24152}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBFEDF0A-5E63-466A-A5A1-B5FF0DC24152}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBFEDF0A-5E63-466A-A5A1-B5FF0DC24152}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBFEDF0A-5E63-466A-A5A1-B5FF0DC24152}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,17 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BBC0B7AE-92EB-42A1-B36A-4719A1659DCB}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>CSharp_Programming_Fundamentals</RootNamespace>
-    <AssemblyName>CSharp_Programming_Fundamentals</AssemblyName>
+    <ProjectGuid>{FBFEDF0A-5E63-466A-A5A1-B5FF0DC24152}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ResultLibrary</RootNamespace>
+    <AssemblyName>ResultLibrary</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +23,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,14 +41,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConditonalStatementExample.cs" />
-    <Compile Include="InputOutputExample.cs" />
-    <Compile Include="LoopingConstructsExample.cs" />
+    <Compile Include="Result.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TypeCastingExample.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <ProjectReference Include="..\MarksLibrary\MarksLibrary.csproj">
+      <Project>{42c2a15b-9922-4b64-b953-3e282b9bc6ca}</Project>
+      <Name>MarksLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SportsLibrary\SportsLibrary.csproj">
+      <Project>{ea138642-5a78-4494-83ee-0d7704a3c869}</Project>
+      <Name>SportsLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StudentLibrary\StudentLibrary.csproj">
+      <Project>{0c61006f-c0fd-4951-a8de-57870d7738ad}</Project>
+      <Name>StudentLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
