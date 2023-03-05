@@ -43,8 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConstructorChainingExample.cs" />
+    <Compile Include="DefaultConstructorChainingExample.cs" />
     <Compile Include="InheritanceExample.cs" />
+    <Compile Include="ParameterizedConstructorChainingExample.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

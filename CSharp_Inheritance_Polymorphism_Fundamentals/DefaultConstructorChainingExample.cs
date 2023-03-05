@@ -1,4 +1,4 @@
-﻿using System;
+﻿/*using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -37,12 +37,13 @@ namespace CSharp_Inheritance_Polymorphism_Fundamentals
         }
     }
 
-    class ConstructorChainingExample
+    class DefaultConstructorChainingExample
     {
-        static void Main(string[] args)
+        *//*static void Main(string[] args)
         {
             Employee emp = new Employee();
             emp.show();
-        }
+        }*//*
     }
 }
+*/

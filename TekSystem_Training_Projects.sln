@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp_Programming_Fundamen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp_ObjectOrientedProgramming_Fundamentals", "CSharp_ObjectOrientedProgramming_Fundamentals\CSharp_ObjectOrientedProgramming_Fundamentals.csproj", "{E296384C-00FF-4053-90DD-5081EF10C33C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp_Inheritance_Polymorphism_Fundamentals", "CSharp_Inheritance_Polymorphism_Fundamentals\CSharp_Inheritance_Polymorphism_Fundamentals.csproj", "{7CC21F8D-1BA5-4D74-B0BD-7E01D89E62B6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp_Inheritance_Fundamentals", "CSharp_Inheritance_Polymorphism_Fundamentals\CSharp_Inheritance_Fundamentals.csproj", "{7CC21F8D-1BA5-4D74-B0BD-7E01D89E62B6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentLibrary", "StudentLibrary\StudentLibrary.csproj", "{0C61006F-C0FD-4951-A8DE-57870D7738AD}"
 EndProject
@@ -16,6 +16,17 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsLibrary", "SportsLibrary\SportsLibrary.csproj", "{EA138642-5A78-4494-83EE-0D7704A3C869}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResultLibrary", "ResultLibrary\ResultLibrary.csproj", "{FBFEDF0A-5E63-466A-A5A1-B5FF0DC24152}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp_Polymorphism_Fundamentals", "CSharp_Polymorphism_Fundamentals\CSharp_Polymorphism_Fundamentals.csproj", "{DB13DC52-78BA-4CE2-B71E-059B33896168}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp_Exception_Handling_Fundamentals", "CSharp_Exception_Handling_Fundamentals\CSharp_Exception_Handling_Fundamentals.csproj", "{20AF11F3-92A1-4E82-B50D-19B45CB00CEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise", "Exercise\Exercise.csproj", "{C0FEC324-3316-4D4C-9D65-F47D4E747A30}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assignments", "Assignments", "{B6A78B0F-9678-4888-96DC-3CBC83EEC72A}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\Programs\oops-assignments.cs = ..\..\..\Desktop\Programs\oops-assignments.cs
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +62,18 @@ Global
 		{FBFEDF0A-5E63-466A-A5A1-B5FF0DC24152}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBFEDF0A-5E63-466A-A5A1-B5FF0DC24152}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBFEDF0A-5E63-466A-A5A1-B5FF0DC24152}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB13DC52-78BA-4CE2-B71E-059B33896168}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB13DC52-78BA-4CE2-B71E-059B33896168}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB13DC52-78BA-4CE2-B71E-059B33896168}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB13DC52-78BA-4CE2-B71E-059B33896168}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20AF11F3-92A1-4E82-B50D-19B45CB00CEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20AF11F3-92A1-4E82-B50D-19B45CB00CEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20AF11F3-92A1-4E82-B50D-19B45CB00CEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20AF11F3-92A1-4E82-B50D-19B45CB00CEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0FEC324-3316-4D4C-9D65-F47D4E747A30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0FEC324-3316-4D4C-9D65-F47D4E747A30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0FEC324-3316-4D4C-9D65-F47D4E747A30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0FEC324-3316-4D4C-9D65-F47D4E747A30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
