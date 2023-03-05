@@ -1,0 +1,31 @@
+
+Problem Statement 1:
+
+Create a class to store details of student like rollno, name, course joined and fee paid so far. 
+Assume courses are C# and ASP.NET with course fees being 2000 and 3000.
+
+Part 1:
+
+Provide the a constructor to take rollno, name and course.
+Provide the following methods:
+
+Payment(amount)
+Print()
+DueAmount (Read-Only Property)
+TotalFee (Read-Only Property)
+
+Part 2:
+
+Add a static member to store Service Tax, which is set to 12.3%. 
+Also allow a property through which we can set and get service tax.
+Modify TotalFee and DueAmount properties to consider service tax.
+
+// ---------------------------------------------------------------- //
+
+Problem Statement 2:
+
+Create the classes required to store data regarding different types of Courses. All courses have name, duration and course fee. Some courses are part time where you have to store the timing for course. Some courses are onsite where you have to store the company name and the no. of candidates for the course. For onsite course we charge 10% more on the course fee. For part-time course, we offer 10% discount.
+Provide constructors and the following methods.
+
+Print()
+GetTotalFee()

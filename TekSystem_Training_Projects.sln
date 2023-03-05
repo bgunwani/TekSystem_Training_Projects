@@ -23,9 +23,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp_Exception_Handling_F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise", "Exercise\Exercise.csproj", "{C0FEC324-3316-4D4C-9D65-F47D4E747A30}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assignments", "Assignments", "{B6A78B0F-9678-4888-96DC-3CBC83EEC72A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assignments", "Assignments", "{F88875D9-B764-4FD7-9B92-2F68F8F42FFA}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\Desktop\Programs\oops-assignments.cs = ..\..\..\Desktop\Programs\oops-assignments.cs
+		oops-assignments.txt = oops-assignments.txt
 	EndProjectSection
 EndProject
 Global
