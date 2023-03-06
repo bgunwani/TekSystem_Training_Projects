@@ -1,0 +1,8 @@
+
+Design a stack that supports push, pop and retrieving the minimum value in constant time.
+
+Let's Say, stack is [5,2,10,1];
+
+stack.min() // 1
+stack.pop();
+stack.min() // 2

@@ -26,7 +26,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assignments", "Assignments", "{F88875D9-B764-4FD7-9B92-2F68F8F42FFA}"
 	ProjectSection(SolutionItems) = preProject
 		oops-assignments.txt = oops-assignments.txt
+		stacks-assignment.txt = stacks-assignment.txt
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data_Structures_Fundamentals", "Data_Structures_Fundamentals\Data_Structures_Fundamentals.csproj", "{322D56ED-7524-4EF9-B194-B51CB439BB13}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -74,6 +77,10 @@ Global
 		{C0FEC324-3316-4D4C-9D65-F47D4E747A30}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0FEC324-3316-4D4C-9D65-F47D4E747A30}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0FEC324-3316-4D4C-9D65-F47D4E747A30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{322D56ED-7524-4EF9-B194-B51CB439BB13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{322D56ED-7524-4EF9-B194-B51CB439BB13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{322D56ED-7524-4EF9-B194-B51CB439BB13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{322D56ED-7524-4EF9-B194-B51CB439BB13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
